@@ -12,4 +12,4 @@ If the python ssl (_ssl) can't import:
 
 Try to build openssl-3.0.1 by yourself
 
-If the openssl-3.0.1 build success you should got the libssl.so.3 and other related share object in the path. It should fix the _ssl
+If the openssl-3.0.1 build success you should got the libssl.so.3 and other related share object in the path. It should fix the _ssl module
