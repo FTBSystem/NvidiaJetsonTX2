@@ -1,18 +1,3 @@
-Nvidia Jetson TX2 do not got python3.10.9 Preinstall. 
-So it need to build by user. 
+Some basic software needed in project on "Nvidia Jetson TX2" 
 
-SSL version 3.0.1 so path at "/usr/local/lib/"
-Used tag: --with-ensurepip=install --enable-optimizations --with-openssl-rpath=/usr/local/lib/
 
-If you a lazy just run "sudo make install in the unziped folder"
-
-When you use "sudo" thin before you run.
-
-ssl shared object ".so" shound in "/usr/local/lib/"
-
-If the python ssl (_ssl) can't import:
-
-Try to build openssl-3.0.1 by yourself
-
-If the openssl-3.0.1 build success you should got the libssl.so.3 and other related share object in the path.
-It should fix the _ssl
