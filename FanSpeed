@@ -1,0 +1,5 @@
+#!/bin/dash
+echo "Current Fan Speed: " $(cat /sys/devices/pwm-fan/target_pwm)
+echo $1 > /sys/devices/pwm-fan/target_pwm | sudo bash 
+echo "Set fan speed to " $(cat /sys/devices/pwm-fan/target_pwm)
+exit
