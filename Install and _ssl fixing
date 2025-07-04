@@ -2,7 +2,7 @@ Nvidia Jetson TX2 do not got python3.10.9 Preinstall. So it need to build by use
 
 SSL version 3.0.1 so path at "/usr/local/lib/" Used tag: --with-ensurepip=install --enable-optimizations --with-openssl-rpath=/usr/local/lib/
 
-If you a lazy just run "sudo make install in the unziped folder"
+If you a lazy just run "sudo make install" in the unziped folder
 
 When you use "sudo" thin before you run.
 
