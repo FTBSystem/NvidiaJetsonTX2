@@ -36,5 +36,5 @@ def Scan(Min,Max):
 Max = 100
 Min = 0
 
-
-print("Usable cam:",Scan(Min,Max))
+if __name__=="__main__":
+    print("Usable cam:",Scan(Min,Max))
