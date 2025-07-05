@@ -33,8 +33,9 @@ def Scan(Min,Max):
     cv2.destroyAllWindows()    
     return GoodList
     
-Max = 100
-Min = 0
+
 
 if __name__=="__main__":
+    Max = 100
+    Min = 0
     print("Usable cam:",Scan(Min,Max))
